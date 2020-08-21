@@ -41,17 +41,7 @@ class TwitterBot():
                     except Exception as ex:
                         time.sleep(60)
 
-        def Follow(self, abonii):
-            bot = self.bot
-            follows = bot.find_elements_by_class_name('css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0')
-            for follow in follows:
-                try:
-                    follows = bot.find_elements_by_class_name('css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0').click()
-                    time.sleep(15)
-                except Exception as ex:
-                    time.sleep(120)
 
 me = TwitterBot('put your email','put your passwor')   #delete this message and put your email ,#delete this message and put your password
 me.login()
-me.liketweet('webdevelopment')
-me.Follow() # Put Your account name to follow
+me.liketweet('put your hashtag here')
