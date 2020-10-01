@@ -42,6 +42,6 @@ class TwitterBot():
                         time.sleep(60)
 
 
-me = TwitterBot('put your email','put your passwor')   #delete this message and put your email ,#delete this message and put your password
+me = TwitterBot('put your email','put your password')   #delete this message and put your email ,#delete this message and put your password
 me.login()
 me.liketweet('put your hashtag here')
